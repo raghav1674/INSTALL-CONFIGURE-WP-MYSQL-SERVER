@@ -12,13 +12,14 @@
 
 <img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/02_wp.PNG">
 <img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/03_wp.PNG">
-<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/04_wp.PNG">
-<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/05_wp.PNG">
+
+
 
 
 ### 1. CREATE AN APPLICATION SERVER:
   
       On the application server, we will install Apache to serve the HTTP requests and PHP to interpret PHP code requested by Apache. And we are going to use the MySQL database       hosted on the database server, so we do not have to install MySQL on this server.
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/04_wp.PNG">
 
  ```
  get update
