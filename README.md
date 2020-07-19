@@ -108,17 +108,20 @@ now you can create snapshot and then create ami of both wordpress and mysql and 
 ### CREATE DATABASE FOR WORDPRESS ON DATABASE SERVER:
 
 
+
+wordpress(database name)
+wordpressUser (database user)
+PASSWORD (database password)
 ```
 mysql -uroot -p;
 Then type the password you have set .
 
-mysql> CREATE DATABASE wordpress;
-mysql> CREATE USER ‘wordpressUser‘@’PRIVATE_IP_OF_WORDPRESS‘ IDENTIFIED BY ‘PASSWORD‘;
-mysql> GRANT ALL PRIVILEGES ON wordpress.* TO ‘wordpressUser‘@’PRIVATE_IP_OF_WORDPRESS‘;
+mysql> CREATE DATABASE wordpress(database name);
+mysql> CREATE USER 'wordpressUser'@'PRIVATE_IP_OF_WORDPRESS' IDENTIFIED BY 'PASSWORD';
+mysql> GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpressUser'@'PRIVATE_IP_OF_WORDPRESS';
 mysql> FLUSH PRIVILEGES;
 ```
-
-
+' ' --> use these quotes in the sql command whereever specified.
 /*
 Now, if you want to test if the user and database are successfully created, login to your application server and execute the following command to log in to your MySQL server from your application server.
 
