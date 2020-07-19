@@ -100,6 +100,12 @@ now you can create snapshot and then create ami of both wordpress and mysql and 
 
 ### CREATE DATABASE FOR WORDPRESS ON DATABASE SERVER:
 
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/01_sql.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/02_sql.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/03_sql.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/04_sql.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/05_sql.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/06_sql.PNG">
 ```
 mysql -uroot -p;
 Then type the password you have set .
