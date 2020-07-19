@@ -44,6 +44,12 @@ To verify if Apache and PHP are installed and configured correctly, execute the 
 
 
 ### 2.CONFIGURE DATABASE SERVER:
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/01_sql.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/02_sql.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/03_sql.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/04_sql.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/05_sql.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/06_sql.PNG">
 
  ```
  apt-get update
@@ -79,7 +85,7 @@ edit this:>>  bind-address = 0.0.0.0 or (Instance Private IP)
 
 service mysql restart
 ```
-
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/06_sql.PNG">
 
 
 ### 3.DOWNLOAD WORDPRESS ON THE APPLICATION SERVER:
@@ -100,12 +106,7 @@ now you can create snapshot and then create ami of both wordpress and mysql and 
 
 ### CREATE DATABASE FOR WORDPRESS ON DATABASE SERVER:
 
-<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/01_sql.PNG">
-<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/02_sql.PNG">
-<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/03_sql.PNG">
-<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/04_sql.PNG">
-<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/05_sql.PNG">
-<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/06_sql.PNG">
+
 ```
 mysql -uroot -p;
 Then type the password you have set .
