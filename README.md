@@ -8,6 +8,8 @@
 
 >ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20200611 (ami-02d55cb47e83a99a0)
 
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/01_sql.PNG">
+
 ### 1. CREATE AN APPLICATION SERVER:
   
       On the application server, we will install Apache to serve the HTTP requests and PHP to interpret PHP code requested by Apache. And we are going to use the MySQL database       hosted on the database server, so we do not have to install MySQL on this server.
