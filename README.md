@@ -59,9 +59,10 @@ To verify if Apache and PHP are installed and configured correctly, execute the 
  */
 
 
-```vi /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+vi /etc/mysql/mysql.conf.d/mysqld.cnf
 
-       >edit this:>>  bind-address = 0.0.0.0 or (Instance Private IP)
+edit this:>>  bind-address = 0.0.0.0 or (Instance Private IP)
 
 service mysql restart
 ```
