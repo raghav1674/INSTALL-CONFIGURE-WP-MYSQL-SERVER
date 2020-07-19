@@ -118,7 +118,7 @@ PASSWORD (database password)
 mysql -uroot -p;
 Then type the password you have set .
 
-mysql> CREATE DATABASE wordpress(database name);
+mysql> CREATE DATABASE wordpress;
 mysql> CREATE USER 'wordpressUser'@'PRIVATE_IP_OF_WORDPRESS' IDENTIFIED BY 'PASSWORD';
 mysql> GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpressUser'@'PRIVATE_IP_OF_WORDPRESS';
 mysql> FLUSH PRIVILEGES;
