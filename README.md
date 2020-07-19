@@ -110,7 +110,9 @@ now you can create snapshot and then create ami of both wordpress and mysql and 
 
 
 wordpress(database name)
+
 wordpressUser (database user)
+
 PASSWORD (database password)
 ```
 mysql -uroot -p;
