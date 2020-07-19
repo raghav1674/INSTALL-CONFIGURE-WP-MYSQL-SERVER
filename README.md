@@ -37,6 +37,10 @@ To verify if Apache and PHP are installed and configured correctly, execute the 
  rm /var/www/html/index.html
  echo “<?php phpinfo(); ?>” >> /var/www/html/index.php 
  */
+ 
+ <img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/05_wp.PNG">
+ <img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/06_wp.PNG">
+ <img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/07_wp.PNG">
 
 
 ### 2.CONFIGURE DATABASE SERVER:
