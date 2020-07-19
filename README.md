@@ -48,8 +48,7 @@ To verify if Apache and PHP are installed and configured correctly, execute the 
 <img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/02_sql.PNG">
 <img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/03_sql.PNG">
 <img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/04_sql.PNG">
-<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/05_sql.PNG">
-<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/06_sql.PNG">
+
 
  ```
  apt-get update
@@ -57,6 +56,8 @@ To verify if Apache and PHP are installed and configured correctly, execute the 
  apt-get install mysql-server mysql-client -y
  mysql_secure_installation
  ```
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/05_sql.PNG">
+
 
 #### While running the fourth command, You have to answer a few questions. Answer it like this.
 
