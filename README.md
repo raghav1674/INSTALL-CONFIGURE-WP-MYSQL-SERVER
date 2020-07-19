@@ -8,7 +8,13 @@
 
 >ubuntu/images/hvm-ssd/ubuntu-bionic-18.04-amd64-server-20200611 (ami-02d55cb47e83a99a0)
 
-<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/01_sql.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/01_wp.PNG">
+
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/02_wp.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/03_wp.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/04_wp.PNG">
+<img src="https://github.com/raghav1674/INSTALL-CONFIGURE-WP-MYSQL-SERVER/blob/master/SETUP/05_wp.PNG">
+
 
 ### 1. CREATE AN APPLICATION SERVER:
   
